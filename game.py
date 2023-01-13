@@ -59,6 +59,7 @@ def score_game(random_predict) -> int:
     print(f"Минимальное число попыток: {min(count_ls)}")
     print(f"Максимальное число попыток: {max(count_ls)}")
     print(f"Среднее число попыток: {score}")
+    
     return score
 
 
